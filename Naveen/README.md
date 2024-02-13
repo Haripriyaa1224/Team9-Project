@@ -7,9 +7,7 @@ This project aims to create a simplified version of Trello, a web-based list-mak
 - [Introduction](#introduction)
 - [Features](#features)
 - [Installation](#installation)
-- [Usage](#usage)
 - [Contributing](#contributing)
-- [License](#license)
 
 ## Introduction
 
