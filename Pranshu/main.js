@@ -140,3 +140,8 @@ const addDetails = () => {
   statsInfo.append(accuracyInfo, wpmInfo);
   innerBackdropContent.append(scoreInfo, statsInfo);
 };
+
+function clearProgress() {
+  localStorage.clear();
+  bestScore.innerHTML = "HighScore: 0";
+}

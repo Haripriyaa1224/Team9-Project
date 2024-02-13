@@ -11,10 +11,10 @@
     <script src="https://cdn.tailwindcss.com"></script>
     <title>Typester</title>
   </head>
+  <!-- oncopy="return false"
+  oncut="return false"
+  onpaste="return false" -->
   <body
-    oncopy="return false"
-    oncut="return false"
-    onpaste="return false"
     class="w-full font-mono text-gray-200 bg-[url('./images/Home.svg')] object-cover bg-cover overflow-hidden"
   >
     <header
@@ -83,13 +83,21 @@
         id="typedText"
         class="md:w-3/4 w-11/12 md:w-3/4 xl:w-1/2 h-56 xl:h-60 p-3 outline-none rounded-lg bg-zinc-800 text-lg resize-none"
       ></textarea>
-      <label
-        id="start"
-        class="px-6 md:px-7 xl:px-8 py-1 md:py-1.5 xl:py-2 rounded-md text-gray-200 border-2 transition-all duration-300 border-black bg-gray-600 hover:bg-gray-500 cursor-pointer"
-        for="typedText"
-      >
-        Start
-      </label>
+      <div class="flex gap-4">
+        <label
+          id="start"
+          class="px-6 md:px-7 xl:px-8 py-1 md:py-1.5 xl:py-2.5 border border-gray-600 rounded-md text-gray-200 border-2 transition-all duration-300 border-black bg-gray-600 hover:bg-gray-500 hover:border-gray-500 cursor-pointer"
+          for="typedText"
+        >
+          Start
+        </label>
+        <button
+          class="px-4 md:px-5 xl:px-6 py-1 md:py-1.5 xl:py-2 rounded-md text-gray-200 border-2 transition-all duration-300 border-black bg-gray-600 hover:bg-gray-500 cursor-pointer"
+          onclick="clearProgress()"
+        >
+          Clear your progress
+        </button>
+      </div>
     </main>
     <script src="main.js"></script>
   </body>
