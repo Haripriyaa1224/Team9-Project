@@ -1,11 +1,45 @@
-<!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Document</title>
+  <title>Trello-App</title>
+  <script src="https://kit.fontawesome.com/2b5a600a7b.js" crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="style.css">
+
 </head>
+
 <body>
-  
+  <div class="container">
+    <h1>Trello App</h1>
+    <div class="board">
+      <div class="tasks">
+        <p class="headding">Tasks</p>
+        <div id="task_list" class="task_list"></div>
+        <div class="card addTask" id="add_task"><i class="fas fa-plus icon-btn"></i></div>
+
+      </div>
+      <div class=" tasks on_going" id="on_going_tasks">
+        <p class="headding">On Going Tasks</p>
+        <div id="on_going_task_list" class="task_list dropzone"></div>
+
+      </div>
+      <div id="completed_tasks">
+        <p class="headding">Completed Tasks</p>
+        <div id="completed_task_list" class="task_list dropzone"></div>
+      </div>
+    </div>
+  </div>
+  <dialog id="favDialog">
+    <form method="dialog">
+      <h1>Add Task</h1>
+      <label for="card_title"> <input required type="text" name="card_title" id="card-title" placeholder="Add task title" > </label>
+      <label for="card_text"></label>
+      <textarea required id="card-text" rows="5" cols="10"placeholder="start writing !"></textarea>
+      <input id="btn_submit" type="submit" value="Submit">
+    </form>
+  </dialog>
+  <script src="script.js"> </script>
 </body>
+
 </html>

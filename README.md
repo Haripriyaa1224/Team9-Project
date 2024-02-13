@@ -59,6 +59,16 @@ Fueled by our collaborative ethos and unwavering dedication to excellence, we co
 </ol>
 
  ## Challenges Faced and Resolutions:
- ####Crafting Responsive Design:
+ 
+ #### Crafting Responsive Design:
+ 
  <p>Designing a responsive layout adaptable to various screen sizes and devices demanded careful planning and execution.</p>
  <p><b>Resolution:</b> Embracing a desktop-first design approach and leveraging CSS media queries enabled us to create a responsive design framework. Continuous testing across different devices allowed us to refine and enhance the responsiveness of our website.</p>
+ 
+#### Streamlining Team Collaboration and Version Control:
+<p>Coordinating tasks among team members and maintaining smooth version control throughout the project posed ongoing challenges.</p>
+<p>Resolution: Implementation of robust version control systems such as Git and GitHub, coupled with clear branching and merging protocols, streamlined collaboration and code management processes. Regular team meetings and effective communication channels facilitated seamless collaboration and issue resolution.</p>
+
+#### Integrating Third-party Libraries:
+<p>Seamlessly integrating third-party libraries and plugins posed an initial hurdle in replicating specific functionalities from the original website.</p>
+<p>Resolution: Through meticulous examination of documentation, seeking assistance from online communities, and extensive trial-and-error testing, we successfully incorporated the required libraries into our project.</p>
