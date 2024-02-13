@@ -67,9 +67,7 @@
 
       bookmark_btn.addEventListener("click", bookmarkClickEventHandler)
 
-      if (!bookmark_btn.hasEventListener('click', bookmarkClickEventHandler)) {
-        bookmark_btn.addEventListener("click", bookmarkClickEventHandler);
-      }
+     
 
 
 
