@@ -16,3 +16,46 @@
 As a unified and proficient team of nine individuals, we each offer a distinct array of skills and expertise. 
 Through our collective endeavors, we've made significant contributions to a total of nine projects, demonstrating our adaptability and mastery across diverse domains. 
 Fueled by our collaborative ethos and unwavering dedication to excellence, we consistently surmount obstacles to deliver outstanding outcomes.
+
+## Project:
+
+- This project was assigned by [Geekster](https://www.geekster.in/) as a **Major Project** for a team of 9 members:
+  - Chrome Extension
+  - Resume Template
+  - Payment Integration
+  - Invoice Generator
+  - Type Speed Test Game
+  - Minesweeper Game
+  - Code Editor
+  - Flipcart Filter and Sort
+  - Trello Clone
+ 
+    ----
+
+    ## Team Members:
+
+    - We are the team of 9 members
+  - Haripriyaa (TEAM LEAD)
+  - Pranshu Verma
+  - Sejal Rathod
+  - Kasukurthi Bhargav
+  - Himanshu Chauhan
+  - Naveen 
+  - Nirbhay Yadav
+  - Yash Rai
+  - Rishab Yadav
+  - Guidance given from our Mentor Mayank Gupta
+
+----
+
+## Technologies Used:
+<ol>
+   <li>HTML</li>
+   <li>CSS</li>
+   <li>JavaScript</li>
+   <li>Font Awesome</li>
+   <li>Jquery</li>
+   <li>JsPDF</li>
+</ol>
+
+ 
