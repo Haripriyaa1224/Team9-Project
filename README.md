@@ -59,7 +59,9 @@ Fueled by our collaborative ethos and unwavering dedication to excellence, we co
 </ol>
 
  ## Challenges Faced and Resolutions:
+ 
  #### Crafting Responsive Design:
+ 
  <p>Designing a responsive layout adaptable to various screen sizes and devices demanded careful planning and execution.</p>
  <p><b>Resolution:</b> Embracing a desktop-first design approach and leveraging CSS media queries enabled us to create a responsive design framework. Continuous testing across different devices allowed us to refine and enhance the responsiveness of our website.</p>
  
