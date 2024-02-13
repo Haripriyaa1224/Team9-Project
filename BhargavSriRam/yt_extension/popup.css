@@ -1,0 +1,70 @@
+@import url('https://fonts.googleapis.com/css2?family=Protest+Revolution&display=swap');
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    margin: 0;
+    padding: 20px;
+    background-color: rgb(255, 255, 255);
+    width: 300px;
+}
+
+.title {
+    font-weight: 500;
+    color: brown;
+    font-size: 18px;
+    text-align: center;
+    margin: 5px;
+    font-family: 'Protest Revolution', sans-serif;
+
+}
+
+.title img {
+    width: 50px;
+    height: 50px;
+}
+
+.New-bookmark {
+
+    padding: 10px;
+    margin: 2px;
+    border-radius: 10px;
+    display: flex;
+    gap: 15px;
+    align-items: center;
+    justify-content: space-between;
+    box-shadow: 2px 2px 5px rgb(200, 199, 199);
+}
+
+.New-bookmark img {
+    height: 20px;
+    width: auto;
+
+
+}
+
+.New-bookmark:hover {
+
+    box-shadow: 3px 3px 6px rgb(137, 137, 137);
+    margin-bottom: 4px;
+}
+
+.bookmark-controls {
+    display: flex;
+    gap: 15px;
+    align-items: center;
+}
+
+.bookmark-controls img:hover {
+    transform: scale(1.2);
+
+}
+
+.bookmarks {
+    text-align: center;
+}
