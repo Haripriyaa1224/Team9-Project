@@ -1,6 +1,4 @@
-Certainly! Below is a sample README file for your YouTube extension:
 
----
 
 # YouTube Bookmark Extension
 
