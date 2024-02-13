@@ -6,6 +6,10 @@
 
 This project consists of an HTML, CSS, and JavaScript implementation for generating and reviewing invoices. The user can fill in invoice details, add items, apply tax and discount, and review the generated invoice.
 
+## Demo Video:
+https://github.com/Haripriyaa1224/Team9-Project/assets/68774484/287c4330-ddad-458f-be5f-3b32196a02a0
+
+
 ## Files
 
 ### HTML File (index.html)
