@@ -1,6 +1,6 @@
 # Invoice Genrator Project
 
-## [Hosted link](https://github.com/Haripriyaa1224/Team9-Project/tree/main/Team9-Project/Himanshu/)
+## [Hosted link](https://haripriyaa1224.github.io/Team9-Project/ur_repofoldername/Himanshu/)
 
 ## Overview
 
