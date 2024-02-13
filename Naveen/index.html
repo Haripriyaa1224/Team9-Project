@@ -33,9 +33,9 @@
   <dialog id="favDialog">
     <form method="dialog">
       <h1>Add Task</h1>
-      <label for="card_title"> <input type="text" name="card_title" id="card-title" placeholder="Add task title" > </label>
+      <label for="card_title"> <input required type="text" name="card_title" id="card-title" placeholder="Add task title" > </label>
       <label for="card_text"></label>
-      <textarea rows="5" cols="10"placeholder="start writing !"></textarea>
+      <textarea required id="card-text" rows="5" cols="10"placeholder="start writing !"></textarea>
       <input id="btn_submit" type="submit" value="Submit">
     </form>
   </dialog>

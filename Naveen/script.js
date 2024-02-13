@@ -6,6 +6,7 @@ const on_going_task_list = document.getElementById('on_going_task_list');
 const completed_task_list = document.getElementById('completed_task_list');
 const favDialog = document.getElementById('favDialog');
 const add_task_btn = document.getElementById('add_task');
+const submit_btn=document.getElementById('btn_submit');
 console.log(completed_tasks);
 let dumb_text = "Some quick example text to build on the card title and make up the bulk of the card's content."
 let task_data = localStorage.getItem("task_data");
@@ -98,13 +99,20 @@ function deletCard(card_type_id, card_idx) {
   }
 }
 add_task_btn.addEventListener('click', () => {
-  task_data.push({ card_title: "newbi", card_text: "Lorem ipsum dolor sit amet, qui minim labore adipisicing minim sint cillum sint consectetur cupidatat." })
-  localStorage.setItem("task_data", JSON.stringify(task_data));
+  addTask("newBi","Lorem ipsum dolor sit amet, qui minim labore adipisicing minim sint cillum sint consectetur cupidatat.")
+})
+submit_btn.addEventListener('click',()=>{
+  const cardTitle=document.getElementById('card-title').value;
+  const cardText=document.getElementById('card-text').value;
+  addTask(cardTitle,cardText);
+})
+const addTask=(cardTitle,cardText)=>{
+  task_data.push({card_title:cardTitle,card_text:cardText});
+  addToLocalStorage("task_data",task_data);
   const card = makeCard("task", task_data.length-1,task_data[task_data.length-1]);
   task_list.appendChild(card);
   favDialog.showModal();
-})
-
+}
 // Drag&Drop functionlity
 function onDragenter(e) {
   if (e.target.classList.contains("dropzone")) {
